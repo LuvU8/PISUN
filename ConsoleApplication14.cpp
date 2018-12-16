@@ -9,6 +9,7 @@
 
 int main()
 {
+	setlocale(LC_ALL, "Rus");
 	int count ;
 	int sr; 
 	int i; //индекс массива
@@ -20,7 +21,7 @@ int main()
 	char checking; //обработка вводимых данных
 	int sizeofarray;
 	int* mass = NULL;
-	setlocale(LC_ALL, "Rus");
+	
 
 	do
 	{
